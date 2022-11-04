@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": 1,
+      "type": "GIÀY BOOTS",
+      "title": "[MUA 1 TẶNG 1] [LIMITED] GB Boots B1825",
+      "price": 47000000.0
+      },
+    {
+      "id": 2,
+      "type": "GIÀY BOOTS",
+      "title": "[MUA 1 TẶNG 1] [LIMITED] GB Boots B1826",
+      "price": 48000000.0
+    },
+    {
+      "id": 3,
+      "type": "GIÀY BOOTS",
+      "title": "[MUA 1 TẶNG 1] [LIMITED] GB Boots B1827",
+      "price": 49000000.0
+    },
+    {
+      "id": 4,
+      "type": "GIÀY BOOTS",
+      "title": "[MUA 1 TẶNG 1] [LIMITED] GB Boots B1828",
+      "price": 50000000.0
+    }
+  ],
+  "orders": [
+    {
+      "codeOrder": "order04",
+      "userId": 4,
+      "username": "user4",
+      "email": "user@example.com",
+      "address": "Ha Noi",
+      "phone": "033245678",
+      "id": "2",
+      "name": "GB CLASSIC B1817",
+      "price": 370,
+      "quantity": 1,
+      "total": 370
+    },
+    {
+      "codeOrder": "order03",
+      "userId": 4,
+      "username": "user4",
+      "email": "user@example.com",
+      "address": "HCM",
+      "phone": "03324567899",
+      "id": "2",
+      "name": "GB CLASSIC B1817",
+      "price": 370,
+      "quantity": 1,
+      "total": 370
+    }
+  ]
+}
